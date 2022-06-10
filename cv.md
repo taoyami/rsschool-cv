@@ -1,5 +1,7 @@
 # Tatyana Savina
 
+![avatar](/avatar.jpg "Tatyana Savina")
+
 
 ## Personal Info
 
