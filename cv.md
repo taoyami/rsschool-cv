@@ -1,19 +1,19 @@
 # Tatyana Savina
 
-![avatar](/avatar.jpg "Tatyana Savina")
+![avatar](./avatar.jpg "Tatyana Savina")
 
 
 ## Personal Info
 
 **Address:** Nizhny Novgorod, Russia
 
-**Phone:** +7 (960)164-10-52
+[**+7(960)164-10-52**](tel:+7(960)164-10-52 "phone")
 
-**Email:** taoyami@yandex.ru
+[**taoyami@yandex.ru**](mailto:taoyami@yandex.ru "Email")
 
 [**GitHub**](https://github.com/taoyami "GitHub profile")
 
-**Telegram:** [tatyanasavina](https://t.me/tatyanasavina "Telegram profile")
+[**Telegram:**](https://t.me/tatyanasavina "Telegram profile")
 
 
 ## About Me
