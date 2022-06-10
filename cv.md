@@ -13,7 +13,7 @@
 
 [**GitHub**](https://github.com/taoyami "GitHub profile")
 
-[**Telegram:**](https://t.me/tatyanasavina "Telegram profile")
+[**Telegram**](https://t.me/tatyanasavina "Telegram profile")
 
 
 ## About Me
