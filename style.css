@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: 'DelaGothicOne';
+    src: url("assets/fonts/DelaGothicOne.ttf");
+  }
+
+  @font-face {
+    font-family: 'Joan-Regular';
+    src: url('assets/fonts/Joan-Regular.ttf');
+}
+
+
+
+.header {
+    position: absolute;
+    width: 1280px;
+    height: 52px;
+    left: calc(50% - 1280px/2);
+    top: 0px;
+
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 20px;
+    align-items: center;
+    padding: 0px 39px;
+    gap: 25px;
+    isolation: isolate;
+    position: absolute;
+    width: 1280px;
+    height: 26px;
+    left: 0px;
+    top: 11px;
+}
+
+.nav-item {
+    font-family:'Joan-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: #787878;
+    }
+
+.profile {
+    position: absolute;
+    width: 1280px;
+    height: 670px;
+    left: 0px;
+    top: 51px;    
+    }
+
+
+.heading_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1px 3px 1px 39px;
+    gap: 1px;
+
+    position:relative;
+    width: 1280px;
+    height: 127px;
+    left: 0px;
+    top: 50px;
+}
+
+.profile_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 36px;
+    gap: 1px;
+    width: 802px;
+    height: 127px;
+}
+
+.title {
+    font-family: 'Aeroport';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+    }
+
+.subtitle {
+    font-family: 'Joan-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 100%;
+    color: #858585;
+    }
+
+.profile_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 43px;
+    gap: 65px;
+
+    position: absolute;
+    width: 1279px;
+    height: 461px;
+    left: 0px;
+    top: 209px;
+}
+.buttons {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+width: 283px;
+height: 122px;
+}
+
+.button_email {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 17px;
+
+width: 283px;
+height: 48px;
+
+background: #010101;
+border: 2px solid #4B4B4B;
+border-radius: 5px;
+color: #FFFFFF;
+}
+
+.button_telegram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 17px;
+
+    width: 283px;
+    height: 48px;
+
+    background: #010101;
+    border: 2px solid #4B4B4B;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 381px;
+    height: 379px;
+}
+
+.text_about {
+    font-family: 'Lausanne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+    color: #000000;
+}
+
+.github_discord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 135px;
+
+    width: 381px;
+    height: 24px;
+    }
+
+    .github {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    width: 121px;
+    height: 24px;
+
+    font-family: 'Aeroport';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    }
+
+    .discord {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    width: 127px;
+    height: 24px;
+
+    font-family: 'Aeroport';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    }
