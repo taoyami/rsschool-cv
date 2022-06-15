@@ -20,6 +20,10 @@
 body{
     max-width: 1280px;
     margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -45,13 +49,28 @@ body{
 }
 
 .nav-item {
-    font-family:'Joan-Regular';
+    font-family:'JanoSansPro-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 100%;
     color: #787878;
     }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }  
+
+  .nav-item :hover {
+    font-family:'JanoSansPro-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: black; 
+  }
+  
 .nav-item > a {
     text-decoration: none;
     color: inherit;
@@ -133,7 +152,7 @@ height: 122px;
 }
 
 .button_email {
-    display: flex;
+display: flex;
 flex-direction: row;
 align-items: center;
 padding: 12px 17px;
@@ -147,7 +166,17 @@ border-radius: 5px;
 color: #FFFFFF;
 font-family: 'Aeroport';
 font-size: 24px;
+text-decoration: none;
 }
+
+.button_email:hover {
+    font-family:'JanoSansPro-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: rgb(98, 25, 255); 
+  }
 
 .button_telegram {
     display: flex;
@@ -162,8 +191,17 @@ font-size: 24px;
     color: #FFFFFF;
     font-family: 'Aeroport';
     font-size: 24px;
+    text-decoration: none;
 }
 
+.button_telegram:hover {
+    font-family:'JanoSansPro-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: rgb(98, 25, 255); 
+  }
 .about_me {
     display: flex;
     flex-direction: column;
@@ -205,6 +243,24 @@ font-size: 24px;
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    color: #000000;
+}
+
+.github:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    height: 24px;
+
+    font-family: 'Aeroport';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(98, 25, 255);
 }
 
     .discord {
@@ -219,8 +275,25 @@ font-size: 24px;
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
+    color: #000000;
     }
 
+    .discord:hover {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;
+        height: 24px;
+    
+        font-family: 'Aeroport';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        text-decoration: none;
+        color: rgb(98, 25, 255);
+    }
     .skills_content {
     background-color: #000000;
     display: flex;
@@ -239,7 +312,7 @@ font-size: 24px;
         justify-content: center;
         gap: 1px;
         max-width: 1280px;
-        padding: 0px 30px 800px 1100px;        
+        padding: 0px 30px 800px 1120px;        
         
     }
 
@@ -334,7 +407,7 @@ color: #42FF00;
         justify-content: center;
         gap: 1px;
         max-width: 1280px;
-        padding: 0px 30px 800px 930px;
+        padding: 0px 30px 400px 950px;
     }
 
     .header_experience {
@@ -386,10 +459,10 @@ color: #42FF00;
             justify-content: center;
             gap: 1px;
             max-width: 1280px;
-            padding: 0px 30px 800px 930px;
+            padding: 0px 30px 800px 980px;
         }
     
-        .header_education {
+     .header_education {
             font-family: 'Aeroport';
             font-style: normal;
             font-weight: 400;
@@ -399,7 +472,7 @@ color: #42FF00;
             margin: 10px 0;
         }
         
-        .education_title {
+     .education_title {
             font-family: 'Aeroport';
             font-style: normal;
             font-weight: 400;
@@ -413,13 +486,11 @@ color: #42FF00;
     flex-direction: column;
     align-items: left;
     padding: 0px;
-    gap: 160px;
     position: absolute;
     width: 1280px;
     left: 80px;
     top: 1300px;
 }
-
 
 .about_education {
         font-family: 'Aeroport';
@@ -431,5 +502,78 @@ color: #42FF00;
         position: absolute;
         width: 1280px;
         left: 80px;
-        top: 1000px;
+        top: 1200px;
         }
+    
+
+    .language {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        max-width: 1280px;
+        flex-wrap: wrap;
+        }
+
+        .header_language_wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1px;
+            max-width: 1280px;
+            padding: 0px 100px 30px 980px;
+        }
+    
+        .header_language {
+            font-family: 'Aeroport';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 65px;
+            line-height: 100%;
+            color: #595959;
+            margin: 10px 0;
+        }
+        .language_content {
+
+            align-items: left;
+            padding: 0px;
+            width: 1280px;
+
+        }
+        .about_language {
+            font-family: 'Aeroport';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 100%;
+            color: black
+            }
+
+            .footer {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 350px;
+                max-width: 1280px;
+                background-color: #000000;
+            }
+
+.year {
+    font-family: 'Aeroport';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        color: white
+}
+
+.footer_discord {
+    font-family: 'Aeroport';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: white
+}
+
+
