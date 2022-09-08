@@ -1,6 +1,6 @@
 # Tatyana Savina
 
-
+![](https://github.com/taoyami/rsschool-cv/blob/gh-pages/avatar.JPG?raw=true)
 ## Personal Info
 
 **Address:** Nizhny Novgorod, Russia
